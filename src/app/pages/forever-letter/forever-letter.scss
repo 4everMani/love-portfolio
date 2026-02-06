@@ -1,0 +1,27 @@
+.letter-wrapper {
+    min-height: 100vh;
+    background: #fdf8f7;
+    display: flex;
+    justify-content: center;
+    padding: 4rem 1rem;
+}
+
+.parchment {
+    background: white;
+    max-width: 600px;
+    padding: 4rem;
+    border-radius: 4px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    line-height: 2;
+    color: #333;
+}
+
+.serif {
+    font-family: 'Playfair Display', serif;
+    color: #b56b6b;
+}
+
+.signature {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}

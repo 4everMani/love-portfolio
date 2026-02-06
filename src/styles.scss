@@ -1,0 +1,36 @@
+/* You can add global styles to this file, and also import other style files */
+// Import Playfair Display and Inter from Google Fonts in your index.html
+:root {
+  --rose: #b56b6b;
+  --warm-bg: #fdf8f7;
+  --glass: rgba(255, 255, 255, 0.75);
+}
+
+body {
+  margin: 0; background: var(--warm-bg); font-family: 'Inter', sans-serif;
+}
+
+.page-container {
+  height: 100vh; display: flex; align-items: center; justify-content: center; position: relative;
+}
+
+.bg-hero {
+  position: absolute; inset: 0; background-size: cover; background-position: center; filter: brightness(0.7); z-index: -1;
+}
+
+.glass-card {
+  background: var(--glass); backdrop-filter: blur(10px); padding: 3rem; border-radius: 30px;
+  width: 90%; max-width: 550px; text-align: center; border: 1px solid rgba(255,255,255,0.3);
+}
+
+.serif { font-family: 'Playfair Display', serif; }
+
+.btn {
+  display: inline-block; background: var(--rose); color: white; padding: 1rem 2rem;
+  border-radius: 50px; text-decoration: none; margin-top: 2rem; transition: 0.3s;
+  &:hover { transform: scale(1.05); }
+}
+
+.msg-item {
+  background: white; padding: 1rem; margin: 10px 0; border-radius: 15px; font-style: italic;
+}

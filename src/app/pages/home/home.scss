@@ -1,0 +1,132 @@
+// .home-hero {
+//     height: 100vh;
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     background: #fdf8f7;
+//     text-align: center;
+// }
+
+// .content {
+//     max-width: 600px;
+//     padding: 2rem;
+// }
+
+// .serif {
+//     font-size: 4rem;
+//     color: #b56b6b;
+//     margin-bottom: 1.5rem;
+// }
+
+// .romantic-text {
+//     font-size: 1.2rem;
+//     line-height: 1.8;
+//     color: #555;
+//     font-style: italic;
+//     margin-bottom: 2rem;
+// }
+
+.btn-primary {
+  // Typography
+  font-family: 'Inter', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  
+  // Layout
+  padding: 1.2rem 3rem;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  
+  // Colors & Glass Effect
+  background: #b56b6b; // Your signature rose color
+  color: white;
+  border-radius: 50px;
+  
+  // Shadows & Transitions
+  box-shadow: 0 10px 20px rgba(181, 107, 107, 0.2);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  
+  // The Pulse Animation
+  animation: gentle-pulse 3s infinite;
+
+  &:hover {
+    background: #9c5a5a;
+    transform: translateY(-3px);
+    box-shadow: 0 15px 30px rgba(181, 107, 107, 0.4);
+    letter-spacing: 3px; // Slight expansion on hover
+  }
+
+  &:active {
+    transform: translateY(-1px);
+  }
+}
+
+// Keyframes for the heartbeat/pulse
+@keyframes gentle-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(181, 107, 107, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(181, 107, 107, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(181, 107, 107, 0);
+  }
+}
+
+
+
+.home-hero {
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fdf8f7; // A soft, creamy pink
+    }
+
+    .glass-container {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(10px);
+      padding: 4rem;
+      border-radius: 40px;
+      max-width: 600px;
+      text-align: center;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.05);
+    }
+
+    .serif {
+      font-size: 4.5rem;
+      color: #b56b6b;
+      margin: 0;
+      font-weight: 700;
+    }
+
+    .divider {
+      width: 50px;
+      height: 2px;
+      background: #b56b6b;
+      margin: 2rem auto;
+      opacity: 0.5;
+    }
+
+    .romantic-text {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: #5d4e4e;
+      font-style: italic;
+      margin-bottom: 1.5rem;
+    }
+
+    .instruction-text {
+      font-size: 0.85rem;
+      color: #b56b6b;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 2.5rem;
+      opacity: 0.8;
+    }

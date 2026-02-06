@@ -1,0 +1,41 @@
+<!-- <div class="page-container" [@fade]>
+    <div class="bg-hero" [style.background-image]="'url(' + day.bgImage + ')'"></div>
+    <main class="glass-card" [@slideUp]>
+        <h1 class="serif">{{ day.title }}</h1>
+        <p class="subtitle">{{ day.subtitle }}</p>
+        <div class="msg-list" [@staggerFade]>
+            @for (m of day.messages; track m) {
+            <div class="msg-item">
+                <p>{{ m }}</p>
+            </div>
+            }
+        </div>
+        <p class="affirmation serif">"{{ day.affirmation }}"</p>
+        <a [routerLink]="day.nextRoute" class="btn">Continue Journey →</a>
+    </main>
+</div> -->
+
+<div class="page-container" [@fade]>
+
+    <div class="video-container">
+        <video autoplay muted loop playsinline class="bg-video" [src]="day.bgVideo">
+        </video>
+        <div class="overlay"></div>
+    </div>
+
+    <main class="glass-card" [@slideUp]>
+        <h1 class="serif">{{ day.title }}</h1>
+        <p class="subtitle">{{ day.subtitle }}</p>
+
+        <div class="msg-list">
+            @for (m of day.messages; track m) {
+            <div class="msg-item">
+                <p>{{ m }}</p>
+            </div>
+            }
+        </div>
+
+        <p class="affirmation serif">"{{ day.affirmation }}"</p>
+        <a [routerLink]="day.nextRoute" class="btn">Continue Journey →</a>
+    </main>
+</div>
