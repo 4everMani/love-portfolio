@@ -13,7 +13,7 @@ export class ContentService {
       bgImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000',
       messages: ['I admire the grace you carry.', 'Your kindness is a gift.', 'You make my world bloom.'],
       affirmation: 'You are noticed and deeply loved.', nextRoute: '/propose-day',
-      bgVideo: 'https://drive.google.com/drive/folders/11-0kxqjX5uxM1-NMEWsVKr7n1dJF383r?usp=sharing',
+      bgVideo: 'assets/videos/rose.mp4',
     },
     'propose-day': {
       id: 'propose-day', title: 'Propose Day', subtitle: 'The Daily Choice',
@@ -27,7 +27,7 @@ export class ContentService {
       bgImage: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=1000',
       messages: ['You make life sweet.', 'Your smile is my favorite treat.', 'Happiness is being with you.'],
       affirmation: 'You are the joy in my everyday.', nextRoute: '/teddy-day',
-      bgVideo: 'https://drive.google.com/uc?export=download&id=1UT2Pw08LkByMWMEcmWqQoZeXj2lBP1b0',
+      bgVideo: 'assets/videos/chocolate.mp4',
     },
     'teddy-day': {
       id: 'teddy-day', title: 'Teddy Day', subtitle: 'Care & Soft Love',
@@ -41,7 +41,7 @@ export class ContentService {
       bgImage: 'https://images.unsplash.com/photo-1516589174184-c68524c14e44?q=80&w=1000',
       messages: ['I promise to listen.', 'I promise to respect your peace.', 'I promise to grow with you.'],
       affirmation: 'My heart is a promise kept.', nextRoute: '/hug-day',
-      bgVideo: 'assets/videos/promise2.mp4',
+      bgVideo: 'assets/videos/promise.mp4',
     },
     'hug-day': {
       id: 'hug-day', title: 'Hug Day', subtitle: 'Safety & Comfort',
@@ -62,7 +62,7 @@ export class ContentService {
       bgImage: 'https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?q=80&w=1000',
       messages: ['You are my everything.', 'Proud to walk beside you.', 'I love you eternally.'],
       affirmation: 'Today and forever, you are mine.', nextRoute: '/forever-letter',
-      bgVideo: 'assets/videos/val.mp4',
+      bgVideo: 'assets/videos/valentine.mp4',
     }
   };
   getDay(id: string) { return this.data[id]; }
