@@ -30,7 +30,8 @@
         <div class="msg-list">
             @for (m of day.messages; track m) {
             <div class="msg-item">
-                <p>{{ m }}</p>
+                <!-- <p>{{ m }}</p> -->
+                 <div [innerHTML]="m"></div>
             </div>
             }
         </div>

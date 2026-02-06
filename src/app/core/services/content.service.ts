@@ -1,18 +1,21 @@
 import { Injectable } from '@angular/core';
+import { MESSAGE } from './message';
 
 export interface DayData {
   id: string; title: string; subtitle: string; bgImage: string;
   messages: string[]; affirmation: string; nextRoute: string; bgVideo: any
 }
 
+
+
 @Injectable({ providedIn: 'root' })
 export class ContentService {
   private data: Record<string, DayData> = {
     'rose-day': {
-      id: 'rose-day', title: 'Rose Day', subtitle: 'Admiration & Appreciation',
+      id: 'rose-day', title: 'Happy Rose Day', subtitle: 'My future wife, Ananya 🌹',
       bgImage: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?q=80&w=1000',
-      messages: ['I admire the grace you carry.', 'Your kindness is a gift.', 'You make my world bloom.'],
-      affirmation: 'You are noticed and deeply loved.', nextRoute: '/propose-day',
+      messages: [MESSAGE.ROSE_DAY2],
+      affirmation: 'I choose you. Today and always. ❤️', nextRoute: '/propose-day',
       bgVideo: 'assets/videos/rose.mp4',
     },
     'propose-day': {
