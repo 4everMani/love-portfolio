@@ -1,5 +1,5 @@
 export const MESSAGE = {
-    ROSE_DAY: `
+  ROSE_DAY: `
 <div style="
     margin:0;
     padding:40px 20px;
@@ -38,7 +38,7 @@ export const MESSAGE = {
     </div>
 </div>
 `,
-    ROSE_DAY2: `
+  ROSE_DAY2: `
     <div>
   <p>
     One day, I won’t just be sending you a Rose Day message…
@@ -75,5 +75,33 @@ export const MESSAGE = {
     And I can’t wait for the day I call you my wife. 🌹❤️
   </p>
 </div>
-`
+`,
+  PROPOSE: `
+<div>
+
+  <p>
+    We’ve met only once… but my heart has never been this certain.
+  </p>
+
+  <p>
+    There’s something about you that feels different. Real. Rare.
+    And I don’t want to ignore that feeling.
+  </p>
+
+  <p>
+    I don’t just like you.<br>
+    I see you in my future.<br>
+    I want to grow with you, protect your heart,
+    stand beside you, and build something lasting and beautiful.
+  </p>
+
+  <p>
+    This isn’t just a sweet message.<br>
+    It’s a sincere promise of intention.
+  </p>
+
+  <p>
+    Ananya, will you let me be yours — and allow me to choose you every single day? 🌹❤️
+  </p>
+</div>`
 }

@@ -19,9 +19,9 @@ export class ContentService {
       bgVideo: 'assets/videos/rose.mp4',
     },
     'propose-day': {
-      id: 'propose-day', title: 'Propose Day', subtitle: 'The Daily Choice',
+      id: 'propose-day', title: 'Happy Propose Day', subtitle: 'My beautiful Ananya',
       bgImage: 'https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=1000',
-      messages: ['I choose you today.', 'I want every tomorrow with you.', 'My "Yes" is permanent.'],
+      messages: [MESSAGE.PROPOSE],
       affirmation: 'I choose us, always.', nextRoute: '/chocolate-day',
       bgVideo: 'assets/videos/prapose.mp4',
     },
