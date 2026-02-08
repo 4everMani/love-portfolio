@@ -103,5 +103,36 @@ export const MESSAGE = {
   <p>
     Ananya, will you let me be yours — and allow me to choose you every single day? 🌹❤️
   </p>
-</div>`
+</div>`,
+  CHOCOLATE: `
+  <div>
+  <p>
+    Chocolate is sweet, soft, and comforting…
+    but even that feels less compared to the warmth you bring into my life.
+  </p>
+
+  <p>
+    You are the kind of sweetness that isn’t loud —
+    it’s gentle, deep, and lasting.
+  </p>
+
+  <p>
+    When I think about you, I don’t just think about smiles and cute moments.
+    I think about a life filled with care, understanding,
+    and holding each other through everything.
+  </p>
+
+  <p>
+    On this Chocolate Day, I don’t just want to give you something sweet —
+    I want to promise you a love that feels safe.<br>
+    A love that reassures you.<br>
+    A love that grows richer with time, just like the finest chocolate.
+  </p>
+
+  <p>
+    Ananya, you are not just sweetness in my life —
+    you are value, depth, and the woman I want beside me in every season. 🍫❤️
+  </p>
+</div>
+`
 }

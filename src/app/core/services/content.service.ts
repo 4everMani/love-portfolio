@@ -26,9 +26,9 @@ export class ContentService {
       bgVideo: 'assets/videos/prapose.mp4',
     },
     'chocolate-day': {
-      id: 'chocolate-day', title: 'Chocolate Day', subtitle: 'Joy & Sweetness',
+      id: 'chocolate-day', title: 'Happy Chocolate Day', subtitle: 'My precious Ananya 🍫❤️',
       bgImage: 'https://images.unsplash.com/photo-1511381939415-e44015466834?q=80&w=1000',
-      messages: ['You make life sweet.', 'Your smile is my favorite treat.', 'Happiness is being with you.'],
+      messages: [MESSAGE.CHOCOLATE],
       affirmation: 'You are the joy in my everyday.', nextRoute: '/teddy-day',
       bgVideo: 'assets/videos/chocolate.mp4',
     },
