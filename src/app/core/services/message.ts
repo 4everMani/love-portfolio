@@ -134,5 +134,35 @@ export const MESSAGE = {
     you are value, depth, and the woman I want beside me in every season. 🍫❤️
   </p>
 </div>
+`,
+  TEDDY: `
+  <div>
+  <p>
+    If I could, I would send you a teddy that hugs you every time you miss me,
+    that listens when you feel emotional,
+    and that reminds you how deeply you are loved.
+  </p>
+
+  <p>
+    But until I can be there in person,
+    let this teddy carry my warmth, my care, and my promise.
+  </p>
+
+  <p>
+    Ananya, I don’t just want to hold your hand —<br>
+    I want to be your comfort on hard days,<br>
+    your calm when emotions feel heavy,<br>
+    and your safe place when the world feels too much.
+  </p>
+
+  <p>
+    Just like a teddy, I want to be someone you can hold onto without hesitation.
+  </p>
+
+  <p>
+    And one day, instead of a teddy,
+    you’ll have me beside you — always ready to hold you close. 🧸❤️
+  </p>
+</div>
 `
 }

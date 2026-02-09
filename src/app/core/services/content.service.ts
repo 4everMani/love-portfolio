@@ -33,10 +33,10 @@ export class ContentService {
       bgVideo: 'assets/videos/chocolate.mp4',
     },
     'teddy-day': {
-      id: 'teddy-day', title: 'Teddy Day', subtitle: 'Care & Soft Love',
+      id: 'teddy-day', title: 'Happy Teddy Day', subtitle: 'My adorable Ananya 🧸❤️',
       bgImage: 'https://images.unsplash.com/photo-1555448248-2571daf6344b?q=80&w=1000',
-      messages: ['I am your safe space.', 'Lean on me whenever you need.', 'My love is your soft place to land.'],
-      affirmation: 'You are protected and cared for.', nextRoute: '/promise-day',
+      messages: [MESSAGE.TEDDY],
+      affirmation: 'Lean on me whenever you need.', nextRoute: '/promise-day',
       bgVideo: 'assets/videos/teddy.mp4',
     },
     'promise-day': {
