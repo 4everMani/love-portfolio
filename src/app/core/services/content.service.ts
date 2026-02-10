@@ -40,9 +40,9 @@ export class ContentService {
       bgVideo: 'assets/videos/teddy.mp4',
     },
     'promise-day': {
-      id: 'promise-day', title: 'Promise Day', subtitle: 'Trust & Commitment',
+      id: 'promise-day', title: 'To the Heart I Want to Keep Forever 🤍', subtitle: 'Happy Promise Day, My Ananya ❤️',
       bgImage: 'https://images.unsplash.com/photo-1516589174184-c68524c14e44?q=80&w=1000',
-      messages: ['I promise to listen.', 'I promise to respect your peace.', 'I promise to grow with you.'],
+      messages: [MESSAGE.PROMISE],
       affirmation: 'My heart is a promise kept.', nextRoute: '/hug-day',
       bgVideo: 'assets/videos/promise.mp4',
     },

@@ -164,5 +164,37 @@ export const MESSAGE = {
     you’ll have me beside you — always ready to hold you close. 🧸❤️
   </p>
 </div>
+`,
+  PROMISE: `
+  <div>
+  <p>
+    Today isn’t about big promises made for a moment.
+    It’s about quiet promises meant for a lifetime.
+  </p>
+
+  <p>
+    I promise to protect your soft heart.<br>
+    I promise to respect your emotions and never make you feel small for feeling deeply.<br>
+    I promise to listen when you need to speak,
+    and to hold you when words aren’t enough.
+  </p>
+
+  <p>
+    I promise to choose patience over ego,<br>
+    understanding over anger,<br>
+    and love over pride.
+  </p>
+
+  <p>
+    Ananya, loving you is not temporary for me.
+    It’s a commitment I want to grow into every single day.
+  </p>
+
+  <p>
+    As long as I am yours,
+    you will always have someone who stands beside you —
+    with loyalty, care, and a full heart. ❤️
+  </p>
+</div>
 `
 }
