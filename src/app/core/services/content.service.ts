@@ -54,9 +54,9 @@ export class ContentService {
       bgVideo: 'assets/videos/hug.mp4',
     },
     'kiss-day': {
-      id: 'kiss-day', title: 'Kiss Day', subtitle: 'Intimacy & Trust',
+      id: 'kiss-day', title: 'A Kiss Meant Only for You 🤍', subtitle: 'Happy Kiss Day, Lovely Ananya ❤️',
       bgImage: 'https://images.unsplash.com/photo-1518199266791-5375a83190b7?q=80&w=1000',
-      messages: ['I cherish our closeness.', 'Trust is the foundation of us.', 'Your warmth is all I need.'],
+      messages: [MESSAGE.KISS],
       affirmation: 'We are beautifully intertwined.', nextRoute: '/valentines-day',
       bgVideo: 'assets/videos/kiss.mp4',
     },

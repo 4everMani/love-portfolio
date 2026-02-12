@@ -229,5 +229,44 @@ export const MESSAGE = {
     and has no intention of ever letting it go. 🤍
   </p>
 </div>
+`,
+KISS: `
+<div>
+  <p>
+    If I ever kiss you,
+    it won’t be just a moment of impulse.
+  </p>
+
+  <p>
+    It will be slow.<br>
+    Intentional.<br>
+    Full of everything I feel for you.
+  </p>
+
+  <p>
+    It won’t just touch your lips —
+    it will carry my care,
+    my respect,
+    and the depth of my commitment to you.
+  </p>
+
+  <p>
+    A kiss from me would mean:<br>
+    “I choose you.”<br>
+    “I protect you.”<br>
+    “I am yours.”
+  </p>
+
+  <p>
+    Ananya, when that day comes,
+    it won’t be casual.
+    It will be the kind of kiss that feels like a promise.
+  </p>
+
+  <p>
+    Until then,
+    know that every feeling behind it is real. ❤️
+  </p>
+</div>
 `
 }
