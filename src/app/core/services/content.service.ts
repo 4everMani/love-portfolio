@@ -47,9 +47,9 @@ export class ContentService {
       bgVideo: 'assets/videos/promise.mp4',
     },
     'hug-day': {
-      id: 'hug-day', title: 'Hug Day', subtitle: 'Safety & Comfort',
+      id: 'hug-day', title: 'The Place You Belong Is In My Arms', subtitle: 'Happy Hug Day, Dearest Ananya',
       bgImage: 'https://images.unsplash.com/photo-1494203484021-3c454dac695d?q=80&w=1000',
-      messages: ['In my arms, the world is quiet.', 'I am here for the hard days.', 'You are never alone.'],
+      messages: [MESSAGE.HUG],
       affirmation: 'You are home to me.', nextRoute: '/kiss-day',
       bgVideo: 'assets/videos/hug.mp4',
     },

@@ -196,5 +196,38 @@ export const MESSAGE = {
     with loyalty, care, and a full heart. ❤️
   </p>
 </div>
+`,
+  HUG: `
+  <div>
+  <p>
+    If I could hold you today, it wouldn’t be just a simple hug.
+    It would be the kind that makes the world go quiet.
+  </p>
+
+  <p>
+    I would pull you close — not to control you,
+    but to remind you that you are mine… and I am yours.
+  </p>
+
+  <p>
+    In that embrace, I’d want you to feel my seriousness.
+    My commitment.
+    My promise to protect your heart with everything I have.
+  </p>
+
+  <p>
+    When I hug you, it won’t just be affection.<br>
+    It will be reassurance.<br>
+    Security.<br>
+    A silent promise that you will never face life alone.
+  </p>
+
+  <p>
+    Ananya, one day when I wrap my arms around you,
+    it won’t feel temporary.
+    I’ll hold you like someone who knows exactly what he has —
+    and has no intention of ever letting it go. 🤍
+  </p>
+</div>
 `
 }
