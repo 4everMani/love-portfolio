@@ -268,5 +268,54 @@ KISS: `
     know that every feeling behind it is real. ❤️
   </p>
 </div>
+`,
+VAL: ` 
+<div>
+  <p>
+    This is our first Valentine’s Day together…
+    and I don’t take that lightly.
+  </p>
+
+  <p>
+    The first of many — that’s how I see it.
+  </p>
+
+  <p>
+    Loving you isn’t just excitement for me.
+    It’s intention.
+    It’s commitment.
+    It’s choosing you with a calm and serious heart.
+  </p>
+
+  <p>
+    I don’t just want romantic moments with you.
+    I want late-night conversations, quiet hugs,
+    shared dreams, emotional honesty,
+    and a life built side by side.
+  </p>
+
+  <p>
+    I want the kind of intimacy that comes from truly knowing you —
+    your strengths, your fears, your soft heart —
+    and protecting all of it.
+  </p>
+
+  <p>
+    On our first Valentine’s Day,
+    I don’t promise perfection.
+    I promise presence.
+    I promise effort.
+    I promise to stay, to grow,
+    and to love you in ways that make you feel safe,
+    valued, and deeply wanted.
+  </p>
+
+  <p>
+    This may be our first Valentine’s Day —
+    but in my heart,
+    it feels like the beginning of forever. ❤️
+  </p>
+</div>
+
 `
 }

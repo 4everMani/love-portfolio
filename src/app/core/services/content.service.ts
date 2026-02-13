@@ -61,9 +61,9 @@ export class ContentService {
       bgVideo: 'assets/videos/kiss.mp4',
     },
     'valentines-day': {
-      id: 'valentines-day', title: 'Valentine’s Day', subtitle: 'Partnership & Choice',
+      id: 'valentines-day', title: 'To the one who feels like home, Ananya ❤️', subtitle: 'Our First Valentine, The Beginning of Forever ❤️',
       bgImage: 'https://images.unsplash.com/photo-1516585427167-9f4af9627e6c?q=80&w=1000',
-      messages: ['You are my everything.', 'Proud to walk beside you.', 'I love you eternally.'],
+      messages: [MESSAGE.VAL],
       affirmation: 'Today and forever, you are mine.', nextRoute: '/forever-letter',
       bgVideo: 'assets/videos/valentine.mp4',
     }
